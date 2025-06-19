@@ -1,3 +1,9 @@
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
+API_KEY = os.getenv("API_KEY")
+
 import tkinter as tk
 from tkinter import filedialog, messagebox, ttk
 import requests
@@ -6,7 +12,6 @@ import time
 import csv
 from datetime import datetime
 
-API_KEY = "22ab645b720deaf1f00b083cee0d8389da7432a8552319610bdca3416e358218"
 SUSPICIOUS_KEYWORDS = ["login", "verify", "secure", "account", "bank", "update", "signin", "paypal", "confirm"]
 
 # VirusTotal and analysis functions remain unchanged
