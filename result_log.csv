@@ -1,0 +1,4 @@
+Timestamp,URL,Verdict,Harmless,Suspicious,Malicious,Reason
+2025-06-19 16:29:58,google.com,SAFE,72,0,0,No threats detected
+Timestamp,URL,Verdict,Harmless,Suspicious,Malicious,Reason
+2025-06-19 16:34:03,http://secure-paypal.com,PHISHING,64,1,4,Flagged as malicious by antivirus engines
